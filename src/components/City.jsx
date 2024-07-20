@@ -6,14 +6,16 @@ export default function City() {
   return (
     <>
       <div className="d-flex justify-content-between mt-4">
-        <div className="col-6">
+         <div>
           <h1>Kampala</h1>
-        
-            <p>Saturday 14:19, scattered clouds<br/>
-            Humidity: 87%, Wind: 4.12km/h</p>
-        
-        </div>
-        <div className="currentTemperature">
+
+          <p>
+            Saturday 14:19, scattered clouds
+            <br />
+            Humidity: 87%, Wind: 4.12km/h
+          </p>
+         </div>
+         <div className="currentTemperature">
           <div className="temperatureIcon position-relative">
             <ReactAnimatedWeather
               icon="SLEET"
@@ -24,7 +26,7 @@ export default function City() {
           </div>
           <h2 className="position-relative">15</h2>
           <p className="temperatureDegree">°C</p>
-        </div>
+         </div>
       </div>
 
       <div className="weekDays">
