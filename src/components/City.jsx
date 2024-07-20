@@ -103,9 +103,15 @@ export default function City() {
         </div>
       </div>
       <p className="footer mt-5">
-        This project was coded by <a href="#">Charlotte</a> and is{" "}
-        <a href="#">open-sourced on GitHub</a> and is{" "}
-        <a href="#">hosted on Netlify</a>
+        This project was coded by{" "}
+        <a href="https://github.com/miss-charlotte">Charlotte</a> and is{" "}
+        <a href="https://github.com/miss-charlotte/react-weather-app">
+          open-sourced on GitHub
+        </a>{" "}
+        and is{" "}
+        <a href="https://react-weather-app-uganda.netlify.app/">
+          hosted on Netlify
+        </a>
       </p>
     </>
   );
